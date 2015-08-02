@@ -11,7 +11,7 @@ Here to change that is **Chart.js for PHP**. It is fully compatible with **Chart
 3. Place `chart.min.js` anywhere in your project.
 4. Place this into the page where you want to display charts:
     
-    ```js
+    ```html
     <script src="path/to/chart.min.js"></script>
     ```
 
