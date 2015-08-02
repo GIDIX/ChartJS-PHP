@@ -1,6 +1,6 @@
 # Chart.js for PHP
 
-[Chart.js]() is a great library by nnick which allows you to easily add rich visual graphs to your project. However, since it is a JS library, using it in PHP might get a bit tedious. You can have as many charts as you wish. Generated JS code is namespaced so it doesn't clash with code from other Chart.js instances.
+[Chart.js](https://github.com/nnnick/Chart.js) is a great library by nnick which allows you to easily add rich visual graphs to your project. However, since it is a JS library, using it in PHP might get a bit tedious. You can have as many charts as you wish. Generated JS code is namespaced so it doesn't clash with code from other Chart.js instances.
 
 Here to change that is **Chart.js for PHP**. It is fully compatible with **Chart.js 1.x** (will be updated for 2.x soon).
 
