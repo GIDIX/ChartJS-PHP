@@ -88,6 +88,10 @@ There are only 2 major chart types. Here's how they depend one each other:
 Every CommonChart works like any other CommonChart.
 PieChart and DoughnutChart are completely compatible (you can even use PieChartData with DoughnutChart but for semantics sake, DoughnutChartData is provided).
 
+## Requirements
+This library supports Chart.js 1.x only.
+You need at least PHP 5.4 because people, move on.
+
 ## Contribute
 Contributions are welcome. Issue pull requests when you have improvements or fixes.
 
