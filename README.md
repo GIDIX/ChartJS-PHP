@@ -41,7 +41,7 @@ For creating a line chart, you need two arrays: One containing the labels of the
 3. Create the chart:
     
     ```php
-    $chart = new LineChart([ 'Today', 'Today+1', 'Today+2', 'Today+3' ], $dataset, []);
+    $chart = new LineChart([ 'Today', 'Today+1', 'Today+2', 'Today+3' ], [ $dataset ], []);
     ```
     
     You can provide options as a third parameter. Use the options [provided by Chart.js](http://www.chartjs.org/docs/#getting-started-global-chart-configuration).
@@ -65,7 +65,7 @@ For creating a line chart, you need two arrays: One containing the labels of the
 2. Create the chart:
     
     ```php
-    $chart = new PieChart($plansData, []);
+    $chart = new PieChart($data, []);
     ```
     
     You can provide options as a second parameter. Use the options [provided by Chart.js](http://www.chartjs.org/docs/#getting-started-global-chart-configuration).
